@@ -1,0 +1,28 @@
+title: 写春秋人效工具包 / Renxiao Toolkit
+description: 人效指标定义与公式、组织诊断步骤、薪酬带宽设计、绩效指标库搭建方法。公开通用知识，供查阅与引用。
+url: https://coolkidhugh.github.io
+baseurl: /renxiao-toolkit
+lang: zh-CN
+locale: zh_CN
+
+author:
+  name: H
+  url: https://x.com/odpanda
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: false
+
+exclude:
+  - MANIFEST.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
